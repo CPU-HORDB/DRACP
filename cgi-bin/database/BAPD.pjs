@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "BAPD",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "BAPD.fasta",
+  "number-of-letters": 1572,
+  "number-of-sequences": 54,
+  "last-updated": "2022-04-12T10:33:00",
+  "number-of-volumes": 1,
+  "bytes-total": 43775,
+  "bytes-to-cache": 2147,
+  "files": [
+    "BAPD.pdb",
+    "BAPD.phr",
+    "BAPD.pin",
+    "BAPD.pot",
+    "BAPD.psq",
+    "BAPD.ptf",
+    "BAPD.pto"
+  ]
+}

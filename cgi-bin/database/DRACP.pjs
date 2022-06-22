@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "DRACP",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "DRACP.fasta",
+  "number-of-letters": 96871,
+  "number-of-sequences": 5234,
+  "last-updated": "2022-05-17T18:47:00",
+  "number-of-volumes": 1,
+  "bytes-total": 651882,
+  "bytes-to-cache": 144074,
+  "files": [
+    "DRACP.pdb",
+    "DRACP.phr",
+    "DRACP.pin",
+    "DRACP.pot",
+    "DRACP.psq",
+    "DRACP.ptf",
+    "DRACP.pto"
+  ]
+}

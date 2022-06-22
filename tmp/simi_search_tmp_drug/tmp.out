@@ -1,0 +1,176 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BAPD.fasta
+           54 sequences; 1,572 total letters
+
+
+
+Query= 
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+BAPD00004                                                             81.6    2e-27
+BAPD00037                                                             78.2    5e-26
+BAPD00038                                                             39.3    1e-10
+BAPD00059                                                             41.2    3e-10
+BAPD00015                                                             35.8    3e-09
+BAPD00031                                                             31.6    1e-07
+BAPD00036                                                             29.3    1e-06
+BAPD00060                                                             16.9    0.14 
+BAPD00002                                                             16.2    0.18 
+
+
+>BAPD00004
+Length=39
+
+ Score = 81.6 bits (200),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS  39
+           HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS
+Sbjct  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS  39
+
+
+>BAPD00037
+Length=44
+
+ Score = 78.2 bits (191),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 37/37 (100%), Positives = 37/37 (100%), Gaps = 0/37 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPP  37
+           HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPP
+Sbjct  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPP  37
+
+
+>BAPD00038
+Length=30
+
+ Score = 39.3 bits (90),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 17/29 (59%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKNG  29
+           HGEGTFTSD+S  +E +A + FI WL  G
+Sbjct  1   HGEGTFTSDVSSYLEGQAAKEFIAWLVKG  29
+
+
+>BAPD00059
+Length=275
+
+ Score = 41.2 bits (95),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 17/26 (65%), Positives = 21/26 (81%), Gaps = 0/26 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWL  26
+           HGEGTFTSD+S  +EE+A + FI WL
+Sbjct  1   HGEGTFTSDVSSYLEEQAAKEFIAWL  26
+
+
+ Score = 16.5 bits (31),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 5/14 (36%), Positives = 8/14 (57%), Gaps = 0/14 (0%)
+
+Query  21   LFIEWLKNGGPSSG  34
+            + +EW  NG P + 
+Sbjct  206  IAVEWESNGQPENN  219
+
+
+>BAPD00015
+Length=29
+
+ Score = 35.8 bits (81),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWLKN  28
+           H +GTFTSD SK ++    + F++WL N
+Sbjct  1   HSQGTFTSDYSKYLDSRRAQDFVQWLMN  28
+
+
+>BAPD00031
+Length=33
+
+ Score = 31.6 bits (70),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 19/31 (61%), Gaps = 2/31 (6%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVR--LFIEWLKNG  29
+           H EGTFTSD+S  +E +A +    I WL  G
+Sbjct  1   HAEGTFTSDVSSYLEGQAAKEEFIIAWLVKG  31
+
+
+>BAPD00036
+Length=33
+
+ Score = 29.3 bits (64),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  1   HGEGTFTSDLSKQMEEEAVRLFIEWL  26
+           HG+G+F+ +++  ++  A R FI WL
+Sbjct  1   HGDGSFSDEMNTILDNLAARDFINWL  26
+
+
+>BAPD00060
+Length=269
+
+ Score = 16.9 bits (32),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 5/14 (36%), Positives = 8/14 (57%), Gaps = 0/14 (0%)
+
+Query  21   LFIEWLKNGGPSSG  34
+            + +EW  NG P + 
+Sbjct  158  IAVEWESNGQPENN  171
+
+
+ Score = 13.9 bits (24),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 6/10 (60%), Positives = 6/10 (60%), Gaps = 0/10 (0%)
+
+Query  29  GGPSSGAPPP  38
+           GGPS    PP
+Sbjct  17  GGPSVFLFPP  26
+
+
+>BAPD00002
+Length=32
+
+ Score = 16.2 bits (30),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  4   GTFTSDLSK  12
+           GT+T D +K
+Sbjct  10  GTYTQDFNK  18
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.130    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 41184
+
+
+  Database: BAPD.fasta
+    Posted date:  Apr 12, 2022  10:33 AM
+  Number of letters in database: 1,572
+  Number of sequences in database:  54
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
